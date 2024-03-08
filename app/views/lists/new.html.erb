@@ -5,6 +5,9 @@
       <%= form.label :name %>
       <%= form.text_field :name, style: 'text-transform: capitalize;' %>
     </div>
+    <div>
+     <%= form.input :photo, as: :file %>
+    </div>
 
     <div>
       <%= form.submit "Create List" %>

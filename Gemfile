@@ -22,6 +22,8 @@ gem "simple_form"
 gem "sassc-rails"
 
 gem "dotenv-rails"
+
+gem "cloudinary"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 
